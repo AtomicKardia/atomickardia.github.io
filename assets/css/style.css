@@ -422,12 +422,12 @@ h1, h2, h3, h4, h5, h6 {
 #hero .product-screens .product-screen-2 {
   position: absolute;
   z-index: 20;
-  left: 23%;
-  /* bottom: 0; */
-  /*top: 90px;*/
+  left: 25%;
+  bottom: 5px;
+  top: 45px;
 }
 #hero .product-screens .product-screen-2 img {
-  width: 1000px;
+  width: 700px;
 }
 #hero .product-screens .product-screen-3 {
   position: absolute;
@@ -544,6 +544,7 @@ section {
 #about .about-img {
   height: 510px;
   overflow: hidden;
+  margin-top: 70px;
 }
 #about .about-img img {
   margin-left: -15px;
@@ -554,7 +555,7 @@ section {
     height: auto;
   }
   #about .about-img img {
-    margin-left: 0;
+    margin-right: 0;
     padding-bottom: 30px;
   }
 }
@@ -762,8 +763,9 @@ section {
   background-color: #fff;
 }
 #more-features .box {
-  padding: 40px;
-  margin-bottom: 30px;
+  padding-top: 25px;
+  padding: 20px;
+  margin-bottom: 5px;
   box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
   background: #fff;
   transition: 0.4s;
@@ -1029,7 +1031,7 @@ section {
 #gallery .gallery-item img {
   transition: all ease-in-out 0.4s;
   width: 100%;
-  height: 525px;
+  height: 300px;
 }
 #gallery .gallery-item:hover img {
   transform: scale(1.1);
