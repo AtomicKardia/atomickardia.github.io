@@ -421,14 +421,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero .product-screens .product-screen-2 {
   position: absolute;
-  z-index: 20;
-  left: 25%;
-  bottom: 5px;
-  top: 44px;
+  left: calc(50% - 600px);
+  bottom: 0;
 }
-#hero .product-screens .product-screen-2 img {
-  width: 700px;
-}
+
 #hero .product-screens .product-screen-3 {
   position: absolute;
   z-index: 10;
@@ -546,17 +542,15 @@ section {
   overflow: hidden;
   margin-top: 70px;
 }
-#about .about-img img {
-  margin-left: -15px;
-  max-width: 100%;
-}
+
 @media (max-width: 768px) {
   #about .about-img {
     height: auto;
   }
   #about .about-img img {
-    margin-right: 0;
+    margin-right: 15;
     padding-bottom: 30px;
+    max-width: 100%;
   }
 }
 #about .content .h2 {
